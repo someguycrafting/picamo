@@ -1,0 +1,31 @@
+{
+  "name": "Picamo",
+  "version": "0.1.0",
+  "description": "A Node JS based steganography tool",
+  "author": "Renato Duino <renato.duino@gmail.com>",
+  "keywords": [
+   "steganography",
+   "encryption",
+   "privacy",
+   "imaging"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/someguycrafting/picamo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/someguycrafting/picamo/issues"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "author": "Renato Duino <renato.duino@gmail.com>",
+  "main": "picamo.js",
+  "dependencies": {
+    "minimist": "~1.2",
+    "combined-stream2" : "~1.1.2",
+    "crc-32": "~0.4"
+  },
+  "private": false,
+  "license": "GPLv3"
+}
