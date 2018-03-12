@@ -27,13 +27,11 @@ Picamo is a [steganography](https://en.wikipedia.org/wiki/Steganography") tool w
 Data concealed in the image is encrypted using [AES](en.wikipedia.org/wiki/Advanced_Encryption_Standard) [CTR](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation), and it's also possible to use an [initialization vector](https://en.wikipedia.org/wiki/Initialization_vector") for increased security.
 
 ## Getting started
-----------
 Download or clone the repository into a folder and then fetch Picamo dependencies
 ```sh
 $ npm install
 ```
 ## Usage (CLI)
-----------
 
 ```text
 node picamo -c <command> [-f source file] [-i image] [-p password] [--options]
@@ -116,7 +114,6 @@ node picamo -c show -i /source_image_path/img.jpg.enc.jpg --paranoia --hat /imag
 ```
 
 ## FAQ
-----------
 * **So, how exactly does this work?**
 
   Picamo works by exploiting the way most software processes JPEG images. Basically, a JPEG image has a series of markers that get read until the software assumes the image data has ended or, for the geeks:
@@ -136,5 +133,4 @@ node picamo -c show -i /source_image_path/img.jpg.enc.jpg --paranoia --hat /imag
 Picamo logo icon made by [Freepik](http://www.flaticon.com/authors/freepik) from [www.flaticon.com](www.flaticon.com)
 
 ## License
-----------
 Picamo is published under a GPLv3 license.
