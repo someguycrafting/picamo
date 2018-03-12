@@ -18,7 +18,6 @@
 ```                        
 
 ## Overview
----
 
 What if you could hide your data in plain sight? E-mail or share a picture on Facebook, Twitter, Instagram, or any other platform of your choice, that had encrypted files hidden inside, that only you or someone you wanted could have access to?  "More than meets the eye" gets a whole new meaning.
 
