@@ -147,7 +147,7 @@ function logArgumentErrors() {
 function isHex(hex) {
   var conv;
   try {
-    conv = new Buffer(hex, "hex")
+    conv = Buffer.from(hex, "hex")
     return true;
   }
   catch(exception) {
