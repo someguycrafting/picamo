@@ -57,7 +57,7 @@ The password for encryption/decryption of the hidden content. <br/>Ignored if yo
 #### `options`
 Option        | Description
 --------------|------------
-`paranoia`    | File content is encrypted with an auto generated 32 byte key and a 16 byte initialization vector.<br/>**In this case, a file containing both will also be created while using command `hide`. Don't loose it, or it won't be possible to recover hidden content!**
+`paranoia`    | File content is encrypted with an auto generated 32 byte key and a 16 byte initialization vector (AKA salt).<br/>**In this case, a file containing both will also be created while using command `hide`. Don't loose it, or it won't be possible to recover hidden content!**
 `hat`         | Path to the key file generated while using `paranoia`.<br/>Mandatory if using option paranoia with command `show`.
 `marker`      | This option allows for a definition of a custom Picamo signature marker (hex zero padded format, minimun 4 characters), instead of the default one.<br/>Useful, for instance, to avoid signature detection algorithms.<br/>**Use the same marker to hide and show content, or it will fail!**
 `nocomp`      | Disable Picamo compression of the hidden content.<br/>By default, Picamo compresses the hidden file using [gzip](https://en.wikipedia.org/wiki/Gzip). While this should give good results for most data, you may want to disable it by using this option, specially if adding highly compressed data (ex: rar, 7z, pdf files).
@@ -65,7 +65,7 @@ Option        | Description
 `help`   | Show the help screen (more or less what you have here).
 
 ## Usage examples
-----------
+
 >#### Hiding
 While performing hide operations, if everything goes well, you should see an output like this:
 ```text
