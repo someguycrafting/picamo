@@ -1,3 +1,6 @@
+# **DEPRECATION NOTICE!**
+Please comment on https://github.com/someguycrafting/picamo/issues/7 to see where this is going. Thank you.
+
 # Picamo
 ![Picamo logo](https://github.com/someguycrafting/picamo/blob/master/logo/logo.png)
 
