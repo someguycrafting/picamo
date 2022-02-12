@@ -24,7 +24,7 @@
     "minimist": "~1.2",
     "combined-stream2": "~1.1.2",
     "crc-32": "~0.4",
-    "follow-redirects": "~1.7.0"
+    "follow-redirects": "~1.14.8"
   },
   "private": false,
   "license": "AGPL-3.0-or-later"
